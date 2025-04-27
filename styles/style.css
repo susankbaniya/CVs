@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.page {
+  background-color: black;
+  width: 100%;
+  height: 1400px;
+}
+
+.container {
+  width: 794px;
+  height: 1400px;
+  background-color: white;
+  margin: 0 auto;
+  padding: 38px;
+}
+
+.containerpage {
+  width: 100%;
+  height: 100%;
+}
+
+.first-container {
+  float: left;
+  width: 450px;
+  height: 100%;
+  margin-left: 20px;
+  margin-top: 48px;
+}
+
+.second-container {
+  float: right;
+  width: 197px;
+  height: 558px;
+  margin-top: 48px;
+}
+
+.secondimage {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.profileimage {
+  object-fit: cover;
+  border-radius: 200px;
+  width: 100%;
+  height: 100%;
+}
+
+.first-head {
+  height: 60px;
+  font-size: 15px;
+  margin-bottom: 38px;
+  line-height: 35px;
+  font-weight: 100;
+}
+
+.headingfirst {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.first-head h2 {
+  font-weight: 100;
+}
+
+.second-head h3 {
+  font-size: 15px;
+  color: #73808D;
+}
+
+.second-head {
+  line-height: 32px;
+  margin-top: 70px;
+}
+
+.second-head p {
+  margin: 0;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.second-head h4 {
+  font-weight: 800;
+}
+
+.third-head h3 {
+  font-size: 15px;
+  color: #73808D;
+}
+
+.third-head {
+  line-height: 32px;
+  margin-top: 10px;
+}
+
+.third-head p {
+  margin: 0;
+  line-height: 25px;
+}
+
+.third-head h4 {
+  font-weight: 800;
+}
+
+.forth-head h3 {
+  font-size: 15px;
+  color: #73808D;
+}
+
+.forth-head {
+  line-height: 32px;
+  margin-top: 10px;
+}
+
+.forth-head p {
+  margin: 0;
+  line-height: 25px;
+}
+
+.forth-head h4 {
+  font-weight: 800;
+}
+
+.thirdparaheading {
+  font-size: 15px;
+  width: auto;
+  margin: 0;
+  color: #73808D;
+}
+
+.second-header p {
+  margin: 0;
+  font-size: 15px;
+  color: #73808D;
+}
+
+.second-header {
+  margin-top: 40px;
+  line-height: 25px;
+}
+
+.thirdpara {
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.thirdpara p {
+  margin: 0;
+  font-size: 15px;
+  color: #73808D;
+}.education h3 {
+  font-size: 15px;
+  color: #73808D;
+}
+
+.education {
+  line-height: 32px;
+  margin-top: 30px;
+}
+
+.education p {
+  margin: 0;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.education h4 {
+  font-weight: 800;
+}
